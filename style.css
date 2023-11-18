@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 44.14px;
+}
+
+.hero-img{
+    width: 137.996px;
+    height: 35.14px;
+}
+
+.hero-btn{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px 1px lightblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+    
+
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+
+#themeToggle{
+    padding: 10px;
+    background-color: rgb(192, 135, 30);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px 1px lightblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
