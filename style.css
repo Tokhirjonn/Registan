@@ -11,6 +11,10 @@
     padding: 44.14px;
     cursor: pointer;
 }
+  
+#head{
+     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2); 
+}
 
 .hero-img{
     width: 137.996px;
@@ -19,7 +23,7 @@
 
 .hero-btn{
     padding: 10px;
-    background-color: orange;
+    background-color:rgb(230, 91, 11);
     border-radius: 50px;
     border: 0;
     box-shadow: 2px 2px 1px lightblue;
@@ -50,11 +54,15 @@ body.dark-theme {
 
 #themeToggle{
     padding: 10px;
-    background-color: rgb(192, 135, 30);
+    background-color: rgb(230, 91, 11);
     border-radius: 50px;
     border: 0;
     box-shadow: 2px 2px 1px lightblue;
     padding-left: 25px;
     padding-right: 25px;
     cursor: pointer;
+}
+
+.title{
+    max-width: 715px;
 }
