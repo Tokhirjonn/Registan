@@ -5,4 +5,4 @@ const btn = document.getElementById('themeToggle').addEventListener('click', fun
     } else {
         document.body.className = 'light-theme';
     }
-});
+})

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- swipper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     
@@ -12,48 +14,85 @@
     <header id="head">
      <div class="container">
         <nav class="hero-head">
-            <ul class="hero-ul">
-                <img class="hero-img" src=" New-logo.svg" alt="reg.logo">
-                <li>
-                    Biz haqimizda
-                </li>
-    
-                <li>
-                    Kurslar
-                </li>
-    
-                <li>
-                    Yangiliklar
-                </li>
-    
-                <li>
-                    Vakansiya
-                </li>
-                
-                <li>
-                    Manzillarimiz
-                </li> 
-                <button id="themeToggle">mode</button>
-                <button class="hero-btn">Kursga Yozilish</button>
-            </ul>
+            <img class="hero-img" src=" New-logo.svg" alt="reg.logo">
+            <div class="nav">   
+                <ul class="nav-list">
+                    <li class="list-item">
+                        <a href="#">Biz haqimizda</a>
+                    </li>
+        
+                    <li class="list-item">
+                        <a href="#">Kurslar</a>
+                    </li>
+        
+                    <li class="list-item">
+                        <a href="#">Yangiliklar</a>
+                    </li>
+        
+                    <li class="list-item">
+                        <a href="#">Vakansiya</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a href="#">Manzillarimiz</a>
+                    </li> 
+                    <button id="themeToggle">mode</button>
+                    <button class="hero-btn">Kursga Yozilish</button>
+                </ul>
+                </div>
         </nav>
-    </div>
     </header>
-
+    
     <!-- secrion -->
     <main>
-        <section class="main">
-            <div class="title">
-                <h1>Sifatli ta'lim,
-                    natijaviylik,
-                    mas'uliyatlilik. Avval
-                    tarbiya, keyin ta'lim!</h1>
-            </div>
-        </section>
+            <section class="main">
+            <div class="container">
+                <div>
+                    <div class="title">
+                        <h1>Sifatli ta'lim,
+                            natijaviylik,
+                            mas'uliyatlilik. Avval
+                            tarbiya, keyin ta'lim!</h1>
+                            <div class="img-div">
+                                <img class="first-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSImVGc8szhGSm5Rqr1BLOUClgLtCYjWZzwB2XVvmB13oXNOspG" alt="student">
+                                <p class="discreption">40 mingdan ziyod yoshlar ta'lim olgan</p>
+                            </div>
+                            <div class="img-div">
+                                <img class="second-img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSarVaLSitR-pIPU0hh3tZjhAGifrMbYUfgIDzT6lxf0fGhyWM2" alt="map">
+                                <p class="discreption"> Respublika bo'ylab 29 ta filial</p>
+                            </div>
+                        </div>
+                </div>
+                
+                <!-- swipper -->
+                <!-- Swiper -->
+                <!-- <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                    <swiper-slide><img src="https://rgn.uz/wp-content/uploads/2023/01/Frame-43.png" alt="odam1"></swiper-slide>
+                    <swiper-slide><img src="https://rgn.uz/wp-content/uploads/2023/02/Frame-44.jpg" alt="odam2"></swiper-slide>
 
-    </main>
+                </swiper-container> -->
+
+                <button class="btn">Kusrga Yozilish</button>
+                    </div>
+            </section>
+            <!-- yangi -->
+            <section class="mine">
+                <div class="container">
+                    <div class="texto">
+                        <h3 class="text">Eng so'nggi</h3>
+                        <h1 class="yangilik">Registan yangiliklari</h1>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+        
 
 
-    <script src="/fun.js"></script>
+    <script src="./fun.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
